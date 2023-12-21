@@ -733,20 +733,161 @@ The result of the text operation will be displayed in a separate div on the page
 <br>
 <br>
 ![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/38e4bb2e-8ede-4ec6-ae3d-93cd4cb24d98)
-
 <br>
 <br>
 ![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/99c21685-2231-4f74-85c9-8c9eb8036563)
-
 <br>
 <br>
 ![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/ff1bc5b2-4cf3-4cf4-aed4-0cdbd7f27494)
 # Objective 6 :
 
 # Procedure ;
+## Step 1 :
+HTML Structure:
 
+Start with a well-structured HTML file containing form elements like <form>, <input>, and <button>.
+## Step 2 :
+JavaScript Validation:
+
+Write JavaScript functions to validate form inputs. Include checks for required fields, email format, or any custom validation.
+## Step 3 :
+CSS Styling (Optional):
+
+Enhance the form's visual appeal by applying CSS styles. Customize colors, fonts, and layouts to create an attractive user interface.
+## Step 4 :
+Testing and Debugging:
+
+Test the form by entering values and submitting. Debug any issues with the validation logic or styling.
+## Step 5 :
+Refinement and Deployment:
+
+Iterate on the code, refining validation, styling, and functionality as needed.
+Deploy the form on a web server or integrate it into your project.
 # Code :
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #3498db, #1abc9c);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h2 {
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 30px;
+        }
+
+        form {
+            width: 80%;
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input {
+            width: calc(100% - 16px);
+            padding: 12px;
+            margin-bottom: 16px;
+            border: 2px solid #3498db;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+            color: #333;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .error-message {
+            color: red;
+            margin-top: -8px;
+            margin-bottom: 16px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Form Validation</h2>
+
+    <form id="myForm" onsubmit="validateForm(); return false;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <div id="nameError" class="error-message"></div>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <div id="emailError" class="error-message"></div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function validateForm() {
+            // Reset error messages
+            document.getElementById('nameError').innerText = '';
+            document.getElementById('emailError').innerText = '';
+
+            // Get form values
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+
+            // Validate name
+            if (name.trim() === '') {
+                document.getElementById('nameError').innerText = 'Name is required.';
+            }
+
+            // Validate email
+            if (email.trim() === '') {
+                document.getElementById('emailError').innerText = 'Email is required.';
+            } else if (!isValidEmail(email)) {
+                document.getElementById('emailError').innerText = 'Invalid email format.';
+            }
+        }
+
+        function isValidEmail(email) {
+            // Basic email validation regex
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+    </script>
+
+</body>
+</html>
 ```
 # Output :
 ![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/4266f4c4-dfa9-4f62-90e7-8e0cd89cd26e)
