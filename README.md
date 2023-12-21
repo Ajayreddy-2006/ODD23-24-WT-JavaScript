@@ -740,8 +740,8 @@ The result of the text operation will be displayed in a separate div on the page
 <br>
 ![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/ff1bc5b2-4cf3-4cf4-aed4-0cdbd7f27494)
 # Objective 6 :
-
-# Procedure ;
+To Design a JavaScript program which displays error messages when a field in form is entered incorrectly.
+# Procedure :
 ## Step 1 :
 HTML Structure:
 
