@@ -399,6 +399,10 @@ If an invalid input (e.g., not a positive integer) is entered, an error message 
 ```
 # Output :
 ![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/275fd43c-db59-40b2-bfb0-5db464c6bb76)
+<br>
+<br>
+![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/1bcbdc54-c795-4130-a8d7-601d64ab7e67)
+
 
 # Objective 4 :
 To Construct a JavaScript program to implement a simple calculator.
@@ -572,6 +576,9 @@ If an invalid input (e.g., non-numeric values) or division by zero occurs, an er
 ```
 # Output :
 ![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/65f3c487-1500-4f4d-8df4-27181db307db)
+<br>
+<br>
+![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/bb8be043-d181-4262-9497-21e742873315)
 
 # Objective 5 :
 To Design a simple text editor JavaScript application where we can manipulate the user input in different styles, edit the input, capitalize, and many string operations.
