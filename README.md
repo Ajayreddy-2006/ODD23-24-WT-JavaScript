@@ -901,3 +901,8 @@ Deploy the form on a web server or integrate it into your project.
 <br>
 <br>
 ![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/ae0b8c9f-37ed-47b8-8790-b7cc38d98903)
+
+# Result :
+Therefore, sucessfully executed all the given javascipt programs.
+## Developed By : K Santhan Kumar
+## Register Number : 212223240065
