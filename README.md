@@ -897,10 +897,10 @@ Deploy the form on a web server or integrate it into your project.
 </html>
 ```
 # Output :
-![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/4266f4c4-dfa9-4f62-90e7-8e0cd89cd26e)
+![WhatsApp Image 2023-12-28 at 13 23 35_0d26462f](https://github.com/Ajayreddy-2006/ODD23-24-WT-JavaScript/assets/145742508/941c0c46-461e-4a12-8f10-7f52c1cb192f)
 <br>
 <br>
-![image](https://github.com/SANTHAN-2006/ODD23-24-WT-JavaScript/assets/80164014/ae0b8c9f-37ed-47b8-8790-b7cc38d98903)
+![WhatsApp Image 2023-12-28 at 13 23 56_e5cea76b](https://github.com/Ajayreddy-2006/ODD23-24-WT-JavaScript/assets/145742508/955a1e5b-efd0-4a95-9cce-5bf8c8769802)
 
 # Result :
 Therefore, sucessfully executed all the given javascipt programs.
